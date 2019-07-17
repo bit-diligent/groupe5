@@ -1,0 +1,124 @@
+
+.logo{
+	 position: fixed;
+	 z-index: 10;
+	 width: 130px;
+	 height: 70px;
+	 top: -5px; 
+}
+
+
+
+nav{
+	position:fixed;
+	background-color: orange;
+	z-index:10;
+   top: 0px;
+    width: 100%;
+    height: 60px;
+background-attachment: fixed;
+}
+nav ul{
+	position: relative;
+	list-style: none;
+	word-spacing: 170px;
+	 top: -15px;
+  left: 15%;
+	
+}
+nav ul li{
+	display: inline-block;
+    z-index: 6;
+
+	
+	
+}
+nav ul li a{
+	color: green;
+	text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+	font-size: 25px;
+	top: 10px;
+	/*opacity: 0.7;*/
+}
+/*nav ul li:hover{
+    transition:1s;
+transform: scale(1.1);
+ cursor: pointer;
+text-decoration:underline;
+    border-color: red;
+    
+}*/
+
+nav ul li:hover a{
+    transition:1s;
+     transform: scale(1.1);
+    cursor: pointer;
+    color: blue;
+    font-weight:600;
+    opacity: 1;
+}
+
+.login{
+	position: absolute;
+	left: 52%;
+/*border:3px solid black;*/
+
+width: 125px;
+height: 50px;
+}
+.login:hover .seu{
+	display: block;
+	color: white;
+animation: deplace 1s;
+}
+@keyframes deplace{
+	from{position:relative; left: 200px;}
+	to{position:relative; left: 0px;}
+	0%{
+		opacity: 0.4;
+	}
+	50%{
+		opacity: 0.7;
+		background-color: initial;
+	}
+	100%{
+		opacity: 1;
+		background-color: initial;
+	}
+}
+
+.login:hover .su{
+	display: block;
+	color: white;
+animation: depla 1s;
+}
+@keyframes depla{
+	from{position:relative; left: -200px;}
+	to{position:relative; left: 0px;}
+	0%{
+		opacity: 0.4;
+	}
+	50%{
+		opacity: 0.7;
+		background-color: initial;
+	}
+	100%{
+		opacity: 1;
+		background-color: initial;
+	}
+}
+
+
+.me{
+position: relative;
+top: 45px;
+background-color: orange;
+color: white;
+display: none;
+width: 140px;
+}
+.me:hover{
+background-color: black;
+}

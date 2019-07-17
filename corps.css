@@ -1,0 +1,171 @@
+body{
+	 margin-left: 0px;
+	  margin-right: 0px; 
+	  overflow-x: hidden;
+	  background-color:darkkhaki;
+
+}
+
+#conteneur{
+	 background-color: blue;
+	 position: absolute;
+	top: 20px;
+	border-radius: 0 30% 0 30%;
+
+}
+
+#image{
+	opacity: 0.4;
+	top: 5px;
+	z-index: 2;
+	border-radius: 0 30% 0 30%;
+}
+
+.center{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	
+}
+.oui{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	right: 49%;
+	background-color: orange;
+	opacity: 0.7;
+	border-radius: 50%;
+	color: white;
+	text-align: center;
+	line-height: 100px;
+	font-family: verdana;
+	text-transform: uppercase;
+	animation: animate 3s linear infinite;
+
+}
+@keyframes animate
+{
+	0%
+	{
+		box-shadow: 0 0 0 0 rgba(255,109,74,7);
+	}
+	25%
+	{
+		box-shadow: 0 0 0 50px rgba(255,109,74,0);
+	}
+	50%
+	{
+		box-shadow: 0 0 0 50px rgba(255,109,74,0);
+	}
+	75%
+	{
+		box-shadow: 0 0 0 50px rgba(255,109,74,0);
+	}
+	100%
+	{
+		box-shadow: 0 0 0 0 rgba(255,109,74,0);
+	}
+}
+
+.bar{
+	position: absolute;
+	width: 1000px;
+	height: 300px;
+	
+}
+/*.bar {
+	background-color: darkkhaki;
+	top: 600px;
+	left: -160px;
+	transform: rotate(20deg);
+}*/
+.about{
+z-index: 6;
+position: absolute;
+top: 700px;
+left: 45%;
+	right: 40%;
+}
+
+.profile{
+	position: absolute;
+	z-index: 6;
+	top: 800px;
+
+
+
+}
+.profile figure{
+	display: inline-block;
+	padding: 15px;
+	/*border: 1px solid black;
+	overflow: hidden;*/
+	word-wrap: break-word;
+	width: 250px;
+	height: 400px;
+	z-index: 7;
+
+}
+.profile span{
+	position: absolute;
+	padding-left: 15px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	top: -30px;
+	width: 200px;
+}
+
+.profile figure img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	z-index: 6;
+	top: 800px;
+}
+.profile figure:hover img{
+  transition:1s;
+transform: scale(1.2);
+ cursor: pointer;
+ border-radius: 0%;
+ box-shadow: 0 0 5px;
+
+
+}
+
+.karim{
+	position: absolute;
+	left: 10px;
+}
+.sanou{
+	position: absolute;
+	left: 520px;
+	/*top: 200px;*/
+}
+.semde{
+	position: absolute;
+	left: 1000px;
+
+}
+
+.youba{
+	position: absolute;
+	left: 260px;
+	top: 480px;
+
+}
+
+.yam{
+	position: absolute;
+	left: 760px;
+	top: 480px;
+}
+.profile figure figcaption{
+	margin-top: 20px;
+}
+footer{
+	position: absolute;
+	top: 1700px;
+
+}

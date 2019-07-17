@@ -1,0 +1,62 @@
+body{
+	margin-right: 0px;
+	margin-left: 0px;
+	overflow-x: hidden;
+    background-color: darkkhaki;
+
+}
+section>div{
+	text-align: center;
+}
+
+
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    }
+.sli{
+   width: 1000px;
+   height: 770px;
+    overflow: hidden;
+}
+
+
+.in{
+    width:500% ;
+    height: 100%;
+    position: relative;
+    left: -100%;
+}
+.so{
+    width:calc(100%/5);
+    height: 100%;
+   float: left;
+    font-size: 6em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #000;
+    font-weight: 700;
+
+}
+
+h1{
+    position: relative;
+    left: 45%;
+    top: 100px;
+}
+
+.so{
+	
+	position: relative;
+	margin-top: 150px;
+
+	
+}
+
+footer{
+	position: absolute;
+	top: 740px;
+}

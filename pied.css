@@ -1,0 +1,36 @@
+footer{
+	background-color: black;
+	width: 100%;
+	height: 330px;
+	z-index: 7;
+	position: absolute;
+	
+}
+
+/*footer figure{
+	position: relative;
+	left: 75%;
+	margin-bottom: -14px;
+}
+*/
+footer div{
+	position: relative;
+	top: px;
+	display: inline-block;
+}
+footer div p{
+	color: white;
+	margin-left: 40px;
+	text-decoration: underline;
+}
+footer figure img{
+
+width: 30px;
+}
+
+ .icon{
+ 	position: relative;
+ 	color: white;
+ 	left: 44px;
+ 	top: -30px;
+ }

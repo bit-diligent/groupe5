@@ -1,0 +1,234 @@
+body{
+	margin-right: 0px;
+	margin-left: 0px;
+	overflow-x: hidden;
+	background-color: darkkhaki;
+}
+
+/*figure img{
+	width: 150px;
+	height: 100px;
+	margin-top: 100px;
+}*/
+/* pour les oeufs*/
+.con{
+	position: absolute;
+    display: flex;
+    top: 100px;
+     background-color: black;
+    overflow: hidden;
+
+
+    }
+.sli{
+    width: 330px;
+   height: 300px;
+    
+}
+.in{
+    width:500% ;
+    height: 100%;
+    position: relative;
+    left: -100%;
+}
+
+.sli:hover,.slis:hover,.sl:hover{
+    transition: 1s;
+    transform:scale(1.2);
+    cursor: pointer;
+    overflow: hidden;
+    
+
+}
+.sli:hover .so,.slis:hover .lo,.sl:hover .o{
+   opacity: 0.3; 
+}
+
+.so{
+    width:calc(100%/5);
+    height: 100%;
+   float: left;
+    font-size: 6em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #000;
+    font-weight: 700;
+
+}
+/*pour les pousins*/
+.co{
+    display: flex;
+   position: absolute;
+   top: 100px;
+   left: 35%;
+     overflow: hidden;
+      background-color: black;
+    }
+.sl{
+   width: 330px;
+   height: 300px;
+    overflow: hidden;
+}
+.i{
+    width:500% ;
+    height: 100%;
+    position: relative;
+    left: -100%;
+}
+.o{
+    width:calc(100%/5);
+    height: 100%;
+   float: left;
+    font-size: 6em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #000;
+    font-weight: 700;
+}
+
+/*pour les poulets*/
+.cons{
+    display: flex;
+    top: 100px;
+    position: absolute;
+    left: 70%;
+    background-color: black;
+     overflow: hidden;
+    }
+.slis{
+   width: 330px;
+   height: 300px;
+    overflow: hidden;
+}
+.ins{
+    width:500% ;
+    height: 100%;
+    position: relative;
+    left: -100%;
+}
+.lo{
+    width:calc(100%/5);
+    height: 100%;
+   float: left;
+    font-size: 6em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #000;
+    font-weight: 700;
+}
+.sli:hover .buy,.slis:hover .buy,.sl:hover .buy{
+    display: block;
+    -webkit-animation: deplac 1s;
+    animation: deplac 1s;
+    opacity: 1;
+    font-weight: bold;
+}
+
+
+@-webkit-keyframes deplac{
+    from{position:relative; left: 30px;top: 20px; transform: rotate(0deg);}
+    to{position:relative; top:48%;left: 35%;transform: rotate(360deg); }
+   0%{
+        opacity: 0.1;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+
+    }
+}
+
+@keyframes deplac{
+    from{position:relative; left: 30px;top: 20px; transform: rotate(0deg);}
+    to{position:relative; top:48%;left: 35%;transform: rotate(360deg); }
+   0%{
+        opacity: 0.1;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+
+    }
+}
+
+
+.buy:hover{
+    background-color: orange;
+}
+/*PAYER*/
+.buy{
+    position: absolute;
+    left: 35%;
+    top: 48%;
+     display: ;
+     opacity: 1;
+     text-decoration: none;
+    color: white;
+    font-family: verdana;
+    z-index: 6;
+    display: none;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/*figure .buy{
+    position: relative;
+	top: 280px;
+	background-color: gray;
+	width: 100px;
+	height: 25px;
+    
+	text-align: center;
+	border-radius: 3px;
+	
+}*/
+.poulet{
+   position: absolute;
+left: 70%;
+    top: 410px;
+    width: 350px;
+    height: 200px;
+    z-index: 6;
+    word-spacing: 3px;
+    font-family: verdana;
+    word-break:normal;
+}
+.poussin{
+   position: absolute;
+left: 35%;
+    top: 410px;
+    width: 350px;
+    height: 200px;
+    z-index: 6;
+    word-spacing: 3px;
+    font-family: verdana;
+    word-break:normal;
+}
+.ouf{
+   position: absolute;
+left: 3%;
+    top: 410px;
+    width: 350px;
+    height: 200px;
+    z-index: 6;
+    word-spacing: 3px;
+    font-family: verdana;
+    word-break:normal;
+}
+footer{
+    position: absolute;
+    top: 740px;
+}
+.ache{
+    z-index: 11;
+visibility: visible;
+}
